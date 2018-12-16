@@ -8,4 +8,13 @@
 
 def select_winner(passengers)
   # add the code snippet here!
+  winner = ""
+
+  hash.each do |suite, name|
+    if suite == :suite_a && name[0] == "A"
+      winner = name
+    end
+  end
+
+  winner
 end
